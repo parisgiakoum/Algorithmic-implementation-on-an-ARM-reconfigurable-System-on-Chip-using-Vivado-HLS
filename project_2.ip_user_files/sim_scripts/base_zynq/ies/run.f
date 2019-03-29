@@ -1,10 +1,10 @@
 -makelib ies_lib/xil_defaultlib -sv \
-  "C:/Xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv" \
-  "C:/Xilinx/Vivado/2017.4/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv" \
-  "C:/Xilinx/Vivado/2017.4/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv" \
+  "E:/Xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv" \
+  "E:/Xilinx/Vivado/2017.4/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv" \
+  "E:/Xilinx/Vivado/2017.4/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv" \
 -endlib
 -makelib ies_lib/xpm \
-  "C:/Xilinx/Vivado/2017.4/data/ip/xpm/xpm_VCOMP.vhd" \
+  "E:/Xilinx/Vivado/2017.4/data/ip/xpm/xpm_VCOMP.vhd" \
 -endlib
 -makelib ies_lib/axi_infrastructure_v1_1_0 \
   "../../../../project_2.srcs/sources_1/bd/base_zynq/ipshared/ec67/hdl/axi_infrastructure_v1_1_vl_rfs.v" \
@@ -103,9 +103,10 @@
 -endlib
 -makelib ies_lib/xil_defaultlib \
   "../../../bd/base_zynq/sim/base_zynq.vhd" \
-  "../../../bd/base_zynq/ipshared/1f12/hdl/myip_v1_1_M00_AXIS.vhd" \
-  "../../../bd/base_zynq/ipshared/1f12/hdl/myip_v1_1_S00_AXIS.vhd" \
-  "../../../bd/base_zynq/ipshared/1f12/hdl/myip_v1_1.vhd" \
+  "../../../bd/base_zynq/ipshared/133c/src/myip_fifo.vhd" \
+  "../../../bd/base_zynq/ipshared/133c/hdl/myip_v1_1_M00_AXIS.vhd" \
+  "../../../bd/base_zynq/ipshared/133c/hdl/myip_v1_1_S00_AXIS.vhd" \
+  "../../../bd/base_zynq/ipshared/133c/hdl/myip_v1_1.vhd" \
   "../../../bd/base_zynq/ip/base_zynq_myip_0_0/sim/base_zynq_myip_0_0.vhd" \
 -endlib
 -makelib ies_lib/axi_protocol_converter_v2_1_15 \

@@ -209,7 +209,7 @@ proc create_root_design { parentCell } {
   set dma_irq_concat_ip [ create_bd_cell -type ip -vlnv xilinx.com:ip:xlconcat:2.1 dma_irq_concat_ip ]
 
   # Create instance: myip_0, and set properties
-  set myip_0 [ create_bd_cell -type ip -vlnv xilinx.com:user:myip:1.1 myip_0 ]
+  set myip_0 [ create_bd_cell -type ip -vlnv xilinx.com:user:myip:1.8 myip_0 ]
 
   # Create instance: processing_system7_0, and set properties
   set processing_system7_0 [ create_bd_cell -type ip -vlnv xilinx.com:ip:processing_system7:5.5 processing_system7_0 ]

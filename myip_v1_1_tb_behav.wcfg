@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="myip_v1_1_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="myip_v1_1_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="71200001fs"></ZoomEndTime>
+      <Cursor1Time time="0fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="162"></NameColumnWidth>
+      <ValueColumnWidth column_width="101"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="14" />
+   <wvobject fp_name="/myip_v1_1_tb/m00_axis_aclk" type="logic">
+      <obj_property name="ElementShortName">m00_axis_aclk</obj_property>
+      <obj_property name="ObjectShortName">m00_axis_aclk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/myip_v1_1_tb/m00_axis_aresetn" type="logic">
+      <obj_property name="ElementShortName">m00_axis_aresetn</obj_property>
+      <obj_property name="ObjectShortName">m00_axis_aresetn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/myip_v1_1_tb/m00_axis_tvalid" type="logic">
+      <obj_property name="ElementShortName">m00_axis_tvalid</obj_property>
+      <obj_property name="ObjectShortName">m00_axis_tvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/myip_v1_1_tb/m00_axis_tready" type="logic">
+      <obj_property name="ElementShortName">m00_axis_tready</obj_property>
+      <obj_property name="ObjectShortName">m00_axis_tready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/myip_v1_1_tb/m00_axis_tdata" type="array">
+      <obj_property name="ElementShortName">m00_axis_tdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">m00_axis_tdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/myip_v1_1_tb/s00_axis_tready" type="logic">
+      <obj_property name="ElementShortName">s00_axis_tready</obj_property>
+      <obj_property name="ObjectShortName">s00_axis_tready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/myip_v1_1_tb/s00_axis_tvalid" type="logic">
+      <obj_property name="ElementShortName">s00_axis_tvalid</obj_property>
+      <obj_property name="ObjectShortName">s00_axis_tvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/myip_v1_1_tb/s00_axis_tdata" type="array">
+      <obj_property name="ElementShortName">s00_axis_tdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">s00_axis_tdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/myip_v1_1_tb/uut/myip_v1_1_fifo_inst/DataIn" type="array">
+      <obj_property name="ElementShortName">DataIn[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DataIn[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/myip_v1_1_tb/uut/myip_v1_1_fifo_inst/DataOut" type="array">
+      <obj_property name="ElementShortName">DataOut[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DataOut[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/myip_v1_1_tb/uut/myip_v1_1_fifo_inst/Empty" type="logic">
+      <obj_property name="ElementShortName">Empty</obj_property>
+      <obj_property name="ObjectShortName">Empty</obj_property>
+   </wvobject>
+   <wvobject fp_name="/myip_v1_1_tb/uut/myip_v1_1_fifo_inst/Full" type="logic">
+      <obj_property name="ElementShortName">Full</obj_property>
+      <obj_property name="ObjectShortName">Full</obj_property>
+   </wvobject>
+   <wvobject fp_name="/myip_v1_1_tb/uut/myip_v1_1_fifo_inst/ReadEn" type="logic">
+      <obj_property name="ElementShortName">ReadEn</obj_property>
+      <obj_property name="ObjectShortName">ReadEn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/myip_v1_1_tb/uut/myip_v1_1_fifo_inst/WriteEn" type="logic">
+      <obj_property name="ElementShortName">WriteEn</obj_property>
+      <obj_property name="ObjectShortName">WriteEn</obj_property>
+   </wvobject>
+</wave_config>

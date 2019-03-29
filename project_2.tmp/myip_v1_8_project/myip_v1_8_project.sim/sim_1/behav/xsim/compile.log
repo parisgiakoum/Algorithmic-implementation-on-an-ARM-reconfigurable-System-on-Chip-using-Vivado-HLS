@@ -1,0 +1,10 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "e:/xilinx/vivado/project_2_17.4/ip_repo/myip_1.1/src/myip_fifo.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity myip_fifo
+INFO: [VRFC 10-163] Analyzing VHDL file "e:/xilinx/vivado/project_2_17.4/ip_repo/myip_1.1/hdl/myip_v1_1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity myip_v1_1
+INFO: [VRFC 10-163] Analyzing VHDL file "e:/xilinx/vivado/project_2_17.4/ip_repo/myip_1.1/hdl/myip_v1_1_M00_AXIS.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity myip_v1_1_M00_AXIS
+INFO: [VRFC 10-163] Analyzing VHDL file "e:/xilinx/vivado/project_2_17.4/ip_repo/myip_1.1/hdl/myip_v1_1_S00_AXIS.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity myip_v1_1_S00_AXIS
+INFO: [VRFC 10-163] Analyzing VHDL file "e:/xilinx/vivado/project_2_17.4/ip_repo/myip_1.1/src/myip_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity myip_v1_1_tb
